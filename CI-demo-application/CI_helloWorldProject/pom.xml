@@ -22,7 +22,7 @@
         <extensions>true</extensions>
         <configuration>
           <oracleHome>E:/OracleBPM12213/Middleware/Oracle_Home</oracleHome>
-          <oracleServerUrl>http://localhost:7001</oracleServerUrl>
+          <oracleServerUrl>http://localhost:7003</oracleServerUrl>
           <oracleUsername>weblogic</oracleUsername>
           <oraclePassword>Welcome1</oraclePassword>
         </configuration>
