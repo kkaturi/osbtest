@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="OSB-Replace-Token"  default="replaceConfig">	
+	<target name="replaceConfig">	
+		<echo>Replacing tokens in customization file</echo>		
+		<!-- Following logic copies the dev deployment plan and generates one to meet the target environment. -->
+		<delete failonerror="true" file="${osb.app.source}/${osb.project.name}/${osb.project.name}_OSBCustomizationFile_generated.xml"/>
+		<copy overwrite="true" failonerror="true" file="${osb.app.source}/${osb.project.name}/${osb.project.name}_OSBCustomizationFile.xml" tofile="${osb.app.source}/${osb.project.name}/${osb.project.name}_OSBCustomizationFile_generated.xml"/>
+		<replace file="${osb.app.source}/${osb.project.name}/${osb.project.name}_OSBCustomizationFile_generated.xml">			  
+			  <!-- replace filter for soa source and target endpoints. -->
+			  <replacefilter token="$OPA_HOST" value="${opa.hostname}" />
+			  <replacefilter token="$OPA_PORT" value="${opa.port}" />
+		</replace>		
+	</target>
+</project>
