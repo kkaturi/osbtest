@@ -21,15 +21,8 @@
         <version>12.2.1-3-0</version>
         <extensions>true</extensions>
         <executions>
-		<execution>
+	      <execution>
           <id>default-package</id>
-            <phase>package</phase>
-            <goals>
-              <goal>package</goal>
-            </goals>
-           </execution>		
-          <execution>
-          <id>default-deploy</id>
             <phase>deploy</phase>
             <goals>
               <goal>deploy</goal>
