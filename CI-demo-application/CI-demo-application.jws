@@ -25,6 +25,7 @@
    </list>
    <list n="listOfChildren">
       <hash><url n="URL" path="CI_helloWorldProject/CI_helloWorldProject.jpr"/></hash>
+      <hash><url n="URL" path="HelloSBProject/HelloSBProject.jpr"/></hash>
       <hash><url n="URL" path="System/System.jpr"/></hash>
    </list>
    <hash n="oracle.jdeveloper.maven.compiler.MavenConfiguration">
@@ -53,6 +54,6 @@
       </hash>
    </hash>
    <hash n="oracle.sb.tooling.ide.core.internal.application.SbApplication">
-      <value n="configContextSessionName" v="OSB-IDE_build_1589728325239"/>
+      <value n="configContextSessionName" v="OSB-IDE_build_1589887409605"/>
    </hash>
 </jws:workspace>

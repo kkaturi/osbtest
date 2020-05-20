@@ -10,8 +10,10 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>System</module>
+        <!--module>System</module-->
         <module>CI_helloWorldProject</module>
+		<module>CopySbar</module>
+        <module>HelloSBProject</module>
     </modules>
 
 </project>
