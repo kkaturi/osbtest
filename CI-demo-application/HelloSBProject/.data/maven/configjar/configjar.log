@@ -1,7 +1,7 @@
 The system cannot find the path specified.
 The system cannot find the path specified.
-<May 18, 2020 9:58:56,086 PM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <The temporary directory (D:\CAPG\Practice\GithubLocal\osbtest\HelloSBProject\.data\maven\configjar\configfwk\osbinstance1589819336056\OSB11gConfig) has been created for the configuration framework data. This directory will not be automatically deleted.> 
-<May 18, 2020 9:58:56,240 PM IST> <Info> <oracle.osb.offline.kernel-offline.kerneloffline> <OSB-2030850> <Initializing ALSB in offline mode. Install dir: E:\OracleBPM12213\Middleware\Oracle_Home\osb config dir: D:\CAPG\Practice\GithubLocal\osbtest\HelloSBProject\.data\maven\configjar\configfwk\osbinstance1589819336056\OSB11gConfig> 
-<May 18, 2020 9:59:09,320 PM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <OSB offline instance has started.> 
-<May 18, 2020 9:59:10,415 PM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <OSB Config Jar D:\CAPG\Practice\GithubLocal\osbtest\HelloSBProject\.data\maven\sbconfig.sbar has been created successfully.> 
-<May 18, 2020 9:59:10,504 PM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <Config Jar tool completed.> 
+<May 17, 2020 7:43:07,221 PM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <The temporary directory (D:\CAPG\Practice\SOA\OSBApp\HelloSBProject\.data\maven\configjar\configfwk\osbinstance1589724787192\OSB11gConfig) has been created for the configuration framework data. This directory will not be automatically deleted.> 
+<May 17, 2020 7:43:07,340 PM IST> <Info> <oracle.osb.offline.kernel-offline.kerneloffline> <OSB-2030850> <Initializing ALSB in offline mode. Install dir: E:\OracleBPM12213\Middleware\Oracle_Home\osb config dir: D:\CAPG\Practice\SOA\OSBApp\HelloSBProject\.data\maven\configjar\configfwk\osbinstance1589724787192\OSB11gConfig> 
+<May 17, 2020 7:43:22,258 PM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <OSB offline instance has started.> 
+<May 17, 2020 7:43:23,335 PM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <OSB Config Jar D:\CAPG\Practice\SOA\OSBApp\HelloSBProject\.data\maven\sbconfig.sbar has been created successfully.> 
+<May 17, 2020 7:43:23,412 PM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <Config Jar tool completed.> 

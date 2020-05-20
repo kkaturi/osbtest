@@ -1,20 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-
-    <modelVersion>4.0.0</modelVersion>
-
-    <parent>
-        <groupId>com.oracle.servicebus</groupId>
-        <artifactId>sbar-project-common</artifactId>
-        <version>12.2.1-3-0</version>
-    </parent>
-
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
     <groupId>CI-demo-application</groupId>
     <artifactId>HelloSBProject</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-    <packaging>sbar</packaging>
-
-    <description/>
-
-</project>
+  <packaging>sbar</packaging>
+  <!--
+  <parent>
+    <groupId>com.oracle.servicebus</groupId>
+    <artifactId>sbar-project-common</artifactId>
+    <version>12.2.1-3-0</version>
+  </parent>
+  -->
+  <build>
+    <directory>${project.basedir}/.data/maven</directory>
+    <sourceDirectory>../${project.basedir}</sourceDirectory>
+    <resources>
+      <resource>
+        <directory>${project.basedir}</directory>
+      </resource>
+    </resources>
+    <plugins>
+      <plugin>
+        <groupId>com.oracle.servicebus.plugin</groupId>
+        <artifactId>oracle-servicebus-plugin</artifactId>
+        <version>12.2.1-3-0</version>
+        <extensions>true</extensions>
+        <executions>
+          <execution>
+          <id>default-package</id>
+            <phase>package</phase>
+            <goals>
+              <goal>package</goal>
+            </goals>
+           </execution>
+        </executions>
+        <configuration>
+          <oracleHome>E:\\OracleBPM12213\\Middleware\\Oracle_Home</oracleHome>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+ </project>
