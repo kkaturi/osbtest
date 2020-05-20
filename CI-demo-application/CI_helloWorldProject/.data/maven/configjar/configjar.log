@@ -1,7 +1,7 @@
 The system cannot find the path specified.
 The system cannot find the path specified.
-<May 20, 2020 11:39:04,968 AM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <The temporary directory (D:\CAPG\Practice\GithubLocal\osbtest\CI-demo-application\CI_helloWorldProject\.data\maven\configjar\configfwk\osbinstance1589954944941\OSB11gConfig) has been created for the configuration framework data. This directory will not be automatically deleted.> 
-<May 20, 2020 11:39:05,123 AM IST> <Info> <oracle.osb.offline.kernel-offline.kerneloffline> <OSB-2030850> <Initializing ALSB in offline mode. Install dir: E:\OracleBPM12213\Middleware\Oracle_Home\osb config dir: D:\CAPG\Practice\GithubLocal\osbtest\CI-demo-application\CI_helloWorldProject\.data\maven\configjar\configfwk\osbinstance1589954944941\OSB11gConfig> 
-<May 20, 2020 11:39:18,824 AM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <OSB offline instance has started.> 
-<May 20, 2020 11:39:19,772 AM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <OSB Config Jar D:\CAPG\Practice\GithubLocal\osbtest\CI-demo-application\CI_helloWorldProject\.data\maven\sbconfig.sbar has been created successfully.> 
-<May 20, 2020 11:39:19,848 AM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <Config Jar tool completed.> 
+<May 20, 2020 12:36:52,240 PM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <The temporary directory (D:\CAPG\Practice\GithubLocal\osbtest\CI-demo-application\CI_helloWorldProject\.data\maven\configjar\configfwk\osbinstance1589958412204\OSB11gConfig) has been created for the configuration framework data. This directory will not be automatically deleted.> 
+<May 20, 2020 12:36:52,356 PM IST> <Info> <oracle.osb.offline.kernel-offline.kerneloffline> <OSB-2030850> <Initializing ALSB in offline mode. Install dir: E:\OracleBPM12213\Middleware\Oracle_Home\osb config dir: D:\CAPG\Practice\GithubLocal\osbtest\CI-demo-application\CI_helloWorldProject\.data\maven\configjar\configfwk\osbinstance1589958412204\OSB11gConfig> 
+<May 20, 2020 12:37:05,728 PM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <OSB offline instance has started.> 
+<May 20, 2020 12:37:06,690 PM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <OSB Config Jar D:\CAPG\Practice\GithubLocal\osbtest\CI-demo-application\CI_helloWorldProject\.data\maven\sbconfig.sbar has been created successfully.> 
+<May 20, 2020 12:37:06,759 PM IST> <Info> <oracle.osb.tools-configjar> <BEA-000000> <Config Jar tool completed.> 
