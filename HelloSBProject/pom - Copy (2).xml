@@ -31,7 +31,7 @@
                     <ojdeploy>${oracleHome}/jdeveloper/jdev/bin/ojdeploy.exe</ojdeploy>
                     <workspace>D:/CAPG/Practice/SOA/SOAApp/SOAApp.jws</workspace>
                     <project>HelloSBProject</project>
-                    <!--profile>sfrzrs1MavenTest1</profile-->
+                    <!--profile>sfrfzrs1MavenTest1</profile-->
                     <outputfile>${project.build.directory}/${project.build.finalName}.${project.packaging}</outputfile>
                 </configuration>
                 <executions>
