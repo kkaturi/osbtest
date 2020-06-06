@@ -21,7 +21,7 @@
                 <directory>${project.basedir}</directory> 
             </resource> 
         </resources>  
-        -->
+            -->
     <plugins>
           <plugin>
                 <groupId>com.oracle.adf.plugin</groupId>
@@ -62,6 +62,7 @@
             </configuration>
           </execution>
         </executions>
+
       </plugin>
       -->
       <!--
